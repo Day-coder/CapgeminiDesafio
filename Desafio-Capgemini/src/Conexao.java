@@ -6,7 +6,7 @@ public class Conexao {
 	public  static Connection C() {
 		try {
 
-			return DriverManager.getConnection("jdbc:mysql://localhost:3306/DesafioC", "root", "nic17day21");
+			return DriverManager.getConnection("jdbc:mysql://localhost:3306/DesafioC", "root", "****");
 		} 
 		catch (SQLException ex) {
 			System.out.println("erro SQLException" + ex);
